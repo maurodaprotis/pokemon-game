@@ -1,7 +1,12 @@
+@font-face {
+  font-family: Pokemon;
+  src: url('/fonts/Pokemon.ttf');
+ }
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+  --font-mono: Pokemon, ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
@@ -93,6 +98,16 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  /* font-family: Pokemon; */
+  /* color: #ffcb05; */
+  /* text-shadow: 2px 2px 0px #2c71b8, -2px -2px 0px #2c71b8, -2px 2px 0px #2c71b8, 2px -2px 0px #2c71b8; */
+  /* text-shadow: 2px 2px #2c71b8; */
+  /* text-shadow: 3px 0px 1px #2c71b8, -3px 0px 1px #2c71b8, 0px 4px 1px #2c71b8; */
+  /* text-shadow: 1px 1px 0 #2c71b8, -1px -1px 0 #2c71b8, 1px -1px 0 #2c71b8,
+    -1px 1px 0 #2c71b8, 1px 1px 0 #2c71b8; */
+  /* text-shadow: 2px 2px 0 #2c71b8, -2px -2px 0 #2c71b8, 2px -2px 0 #2c71b8,
+    -2px 2px 0 #2c71b8, 2px 2px 0 #2c71b8; */
+  /* -webkit-text-stroke: 1px #2c71b8; */
 }
 
 a {
